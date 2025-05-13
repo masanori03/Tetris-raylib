@@ -1,11 +1,11 @@
-# Tetris - Using Raylib
+# Tetris Clone Built with Raylib (C++) 
 
 A simple implementation of the classic Tetris game, developed using [Raylib](https://www.raylib.com/) in C++.  
 This project was created as part of my learning and portfolio building.
 
 ## What is Raylib?
-- Raylib is a library that helps C/C++ user to create videogame.
-- It's simple and easy-to-use for videogame programming. 
+Raylib is a C/C++ library designed to help developers easily create 2D and 3D games.  
+It is lightweight, beginner-friendly, and ideal for learning game development basics.
 
 ## Features
 - Block rotation and collision detection
@@ -36,4 +36,15 @@ src/
 
 ## How to Build and Run
 
-Enter "cmake" and this game will run
+### Option 1: Using g++
+```bash
+g++ src/*.cpp -o tetris -lraylib
+./tetris
+```
+
+### Option 2: Using Cmake
+```bash
+cmake .
+make
+./tetris
+```
